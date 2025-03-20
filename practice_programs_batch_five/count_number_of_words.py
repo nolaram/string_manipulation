@@ -2,8 +2,9 @@
 statement = str(input("Enter a complete statement: "))
 
 # seperate the words
-words = statement.spilt()
+words = statement.split()
 
 # count the number of words
+word_count = len(words)
 
 # print the output
