@@ -5,4 +5,6 @@ user_name = str(input("Enter your full name: "))
 remove_space = user_name.strip()
 
 # fix the casing
+pascal_case = remove_space.title()
+
 # print the output
